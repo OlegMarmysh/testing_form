@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import SelectingWirelessReduxForm from "./WirelessSettings/WirelessSettings";
 
-function App() {
+const App = (props) => {
+    const onSubmitWireless = (formData) => {
+        console.log(formData);
+    };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <div>
+              <SelectingWirelessReduxForm onSubmit={onSubmitWireless}/>
+          </div>
   );
-}
+};
+
 
 export default App;

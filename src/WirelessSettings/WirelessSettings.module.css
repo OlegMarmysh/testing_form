@@ -1,0 +1,16 @@
+
+.content input[type = 'text'] {
+    max-width: 300px;
+    padding: 5px 8px;
+}
+
+.content input[type = 'text']:disabled+label, input[type = 'checkbox']:disabled+label{
+    color: #929292;
+}
+
+.enableWifi select:disabled {
+    background-color: #EBEBE4;
+}
+.enableWifi select:disabled+label {
+    color: #929292;
+}

@@ -1,0 +1,25 @@
+.content {
+    width: 380px;
+}
+.content input[type = 'radio'] {
+    margin-bottom: 20px;
+}
+.content input[type = 'text'] {
+    max-width: 300px;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+}
+.ipContent{
+    min-width: 500px;
+}
+
+.ipContent input[type = 'text']:disabled+label {
+    color: #929292;
+}
+.dnsContent {
+    min-width: 500px;
+}
+
+.dnsContent input[type = 'text']:disabled+label {
+    color: #929292;
+}

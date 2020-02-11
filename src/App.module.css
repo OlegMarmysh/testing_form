@@ -1,0 +1,44 @@
+.wireless {
+  display: flex;
+  flex-direction: column;
+  max-width: 950px;
+  margin: 30px auto;
+  border: 1px solid #929292;
+  padding: 0px 150px 15px 20px;
+}
+
+.wireless button {
+  border: none;
+  outline: none;
+  border-radius: 10%;
+  background-color: #695fa8;
+  color: #EBEBE4;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.wireless button:hover{
+  background-color: #9588e9;
+}
+.buttons {
+  position: relative;
+}
+.buttons:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 1120px;
+  left: -20px;
+  top: 30px;
+  background-color: #929292;
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
